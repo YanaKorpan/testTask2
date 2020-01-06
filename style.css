@@ -1,0 +1,59 @@
+body {
+    padding: 15px;
+}
+
+input, button {
+    outline: none
+}
+
+form {
+    display: flex;
+    padding: 15px;
+}
+
+form input {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    color: #222222;
+    border-bottom: 1px solid #F2CB05;
+    transition: border-bottom-color .5s;
+}
+
+form input:hover, form input:focus{
+    border-bottom: 1px solid #F25C05;
+}
+
+form input::placeholder {
+    font-size: 12px;
+    font-style: italic;
+    color: #9e9898;
+}
+
+form button {
+    padding: 5px 15px;
+    background-color: #ffffff;
+    border: 1px solid #F2CB05;
+    font-size: 14px;
+    color: #222222;
+    margin-left: 10px;
+    transition: background-color .5s, color .5s;
+}
+
+form button:hover, form button:focus{
+    background-color: #F25C05;
+    border-color: #F25C05;
+    color: #ffffff;
+}
+
+p {
+    margin: 15px;
+    padding: 5px 10px;
+    color: #9e9898;
+    font-size: 16px;
+}
+
+p span#counter {
+    font-weight: bold;
+    color: #F25C05
+}
